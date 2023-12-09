@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    background-color: black;
+    font-family: fangsong;
+}
+
+h1, h2{
+  color:#FFD700;
+  text-align: center;
+}
+
+canvas{
+   /* background:blue; */
+   position: absolute;
+   top:0;
+   left:0;
+}
+
+#overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.215);
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color:#cc00ff;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(12, 243, 54);
+}
